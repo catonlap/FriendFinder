@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.jumbotron {
+    margin-top: 5%;
+}
+
+#modal {
+    color: black;
+}

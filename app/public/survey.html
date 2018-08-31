@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <h1>Friend Finder</h1>
+        <br>
+        <form>
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name! ex. Jim" required>
+                        <br>
+                        <input type="text" class="form-control" id="photo" placeholder="Enter a link to a photo! ex. http://your.photo.com/pic.jpg" required>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Questions</h1>
+            <br>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q1">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q2">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q3">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q4">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q5">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q6">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q7">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q8">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q9">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 offset-1">
+                    <div class="form-group">
+                        <h5 class="d-inline">question</h5>
+                        <br>
+                        <select class="form-control width-auto d-inline" id="q10">
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Somewhat Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Somewhat Agree</option>
+                            <option value="5">Strongly Agree</option>
+                        </select>
+
+                    </div>
+
+            <br>
+            <button id="submit-button" type="submit" class="btn btn-lg">Submit</button>
+            <button id="reset-button" class="btn btn-lg btn-white">Reset Form</button>
+            <br>
+            <br>
+            <a href="/api/friends">Friends List</a> |
+            <a href="https://github.com/catonlap/FriendFinder" target="_blank">GitHub Repo</a>
+            <br>
+            <br>
+        </form>
+
+    <!-- MATCH DISPLAY -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">MATCH</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center" id="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        $(document).on('click', '#submit-button', function (event) {
+            event.preventDefault();
+
+            // VALIDATION
+            if ($('#name').val().trim() == '' || $('#photo').val().trim() == '') {
+                alert('Please use a valid Name and Image Link!');
+                return;
+            };
+
+            var friend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: []
+            };
+
+            for (var i = 1; i < 11; i++) {
+                var score = parseInt($(`#q${i}`).val());
+                friend.scores.push(score);
+            };
+
+            // POST
+            $.post('/api/friends', friend).then(function (data) {
+                var matchName = data.name;
+                var matchPhoto = data.photo;
+
+                var modalHtml =
+                    `<h5>${matchName}</h5>` +
+                    `<img src='${matchPhoto}' alt='Photo of ${matchName}' style='max-height: 450px;' class='img-fluid img-thumbnail'>`;
+                $('#modal-body').html(modalHtml);
+                $('#modal').modal('toggle');
+            });
+
+        });
+
+        $(document).on('click', '#reset-button', function (event) {
+            location.reload();
+        });
+
+    </script>
+
+</body>
+
+</html>
